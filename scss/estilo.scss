@@ -126,18 +126,26 @@ main{
         width: 1000px;
     }
 
-    .link-rapidos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        h5{
-            text-decoration: underline;
-        }
-        .rapidos{
-            text-decoration: none;
-            color:black;
-        }
+    
     }
+
+    footer{
+        justify-content: center;
+        background-color: black;
+        .link-rapidos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h5{
+                text-decoration: underline;
+                color: white;
+            }
+            .rapidos{
+                text-decoration: none;
+                color:white;
+            }
+        }
+
     }
 
 

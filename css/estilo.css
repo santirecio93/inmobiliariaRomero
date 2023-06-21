@@ -95,12 +95,17 @@ main {
     padding: 2rem;
     height: 250px;
     width: 1000px; }
-  main .link-rapidos {
+
+footer {
+  justify-content: center;
+  background-color: black; }
+  footer .link-rapidos {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    main .link-rapidos h5 {
-      text-decoration: underline; }
-    main .link-rapidos .rapidos {
+    footer .link-rapidos h5 {
+      text-decoration: underline;
+      color: white; }
+    footer .link-rapidos .rapidos {
       text-decoration: none;
-      color: black; }
+      color: white; }
