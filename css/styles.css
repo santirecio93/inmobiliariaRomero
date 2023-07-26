@@ -114,7 +114,10 @@ main {
     padding: 2rem;
     height: 250px;
     width: 1000px; }
-
+    main .verMas-button {
+      padding: 0.5rem;
+      color: black;
+      text-decoration: none; }
 footer {
   justify-content: center;
   background-color: black; }
