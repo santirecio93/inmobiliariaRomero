@@ -44,28 +44,14 @@
         
         
     }
-    nav{
+    .navbar{
         background-color: black;
-        align-items: center;
-        width: 50%;
-        ul{
-            align-items: center;
+        .navbar-nav{
             background-color: black;
-            display: flex;
-            li{
-                list-style-type: none;
-                padding: 1rem;
-                :hover{
-                    background-color: white;
-                    color: black;
-                }
-                a{
-                    text-decoration: none;
-                    color: white;
-                    
-                }
+            .nav-link{
+                color: white;
             }
-        }
+            } 
     }
 }
 
@@ -75,9 +61,11 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     nav{
         ul{
             display: flex;
+            flex-wrap: wrap;
             li{
                 padding: .5rem;
                 list-style-type: none;
@@ -96,7 +84,9 @@ main{
     align-items: center;
     justify-content: space-evenly;
     background-color:white;
-    
+    .slide{
+        width: 99%;
+    }
     .propiedades{
         padding: 1rem;
         display: flex;
@@ -106,11 +96,11 @@ main{
         .nombre{
             background-color: red;
         }
-        .grid{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            gap: 30px;
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
             
             .square{
                 display: flex;

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="container-fluid">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,28 +22,36 @@
                     <H6>Propiedades</H6>
                 </div>
             </div>
-            <nav >
-                <ul>
-                    <li >
-                        <a href="">Inicio</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
                     </li>
-                    <li>
-                        <a href="./pages/nosotros.html">Nosotros</a>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
                     </li>
-                    <li>
-                        <a href="./pages/propiedades.html">Propiedades</a>     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Propiedades</a>
                     </li>
-                    <li>
-                        <a href="./pages/tasaciones.html">Tasaciones</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tasaciones</a>
                     </li>
-                    <li>
-                        <a href="./pages/contacto.html">Contacto</a>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
+        </div>
+    </nav>
         </div>
 
-        <div class="hinferior">
+        <div class="container-fluid hinferior">
             <nav >
                 <ul>
                     <li>
@@ -77,8 +85,8 @@
 
     <main class="container-fluid">
 
-        <div id="carouselExampleAutoplaying" class="container-fluid carousel slide" data-bs-ride="carousel">
-            <div class="container-fluid carousel-inner">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class=" carousel-inner">
               <div class="carousel-item active">
                 <img src="./img/chairs-g060dca7bc_1280.jpg" class="d-block w-100" alt="...">
               </div>
@@ -96,71 +104,82 @@
             </button>
           </div>
 
-          <div class="container-fluid propiedades">
+          <div class="propiedades">
             
              <h4 class="nombre">PROPIEDADES</h4>
         
-          <div class="container-fluid grid">
-            <div class="square">
+            <div class="container grilla">
+                <div class="item">
+                    <div class="square">
                 
-                <img src="./img/iloveimg-resized (2)/1.png" alt="">
-                <div class="square_descripcion">
-                    <a href="">USD 265.000</a>
-                    <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Bella Vista, San Miguel</a>
-                    <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">220 m Cubiertos</a>
-                    <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">5 Dorm</a>
+                        <img src="./img/iloveimg-resized (2)/1.png" alt="">
+                        <div class="square_descripcion">
+                            <a href="">USD 265.000</a>
+                            <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Bella Vista, San Miguel</a>
+                            <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">220 m Cubiertos</a>
+                            <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">5 Dorm</a>
+                        </div>
+                        
+                    </div>
                 </div>
-                
-            </div>
-            <div class="square">
-                <img src="./img/iloveimg-resized (2)/foto1-copy-0.jpg" alt="">
-                <div class="square_descripcion">
-                    <a href="">USD 220.000 </a>
-                    <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Bella Vista, San Miguel</a>
-                    <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">1523 m Total</a>
-                    <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">20 m de frente</a>
+                <div class="item">
+                    <div class="square">
+                        <img src="./img/iloveimg-resized (2)/foto1-copy-0.jpg" alt="">
+                        <div class="square_descripcion">
+                            <a href="">USD 220.000 </a>
+                            <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Bella Vista, San Miguel</a>
+                            <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">1523 m Total</a>
+                            <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">20 m de frente</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="square">
+                        <img src="./img/iloveimg-resized (2)/foto1.jpg" alt=""> 
+                        <div class="square_descripcion">
+                            <a href="">USD 65.000</a>
+                            <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Parque Patricios, Capital Federal</a>
+                            <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">75 m Cubiertos</a>
+                            <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">2 Dorm</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="square">
+                        <img src="./img/iloveimg-resized (2)/foto1-copy-2.jpg" alt="">
+                        <div class="square_descripcion">
+                            <a href="">USD 2.500.000</a>
+                            <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Villa Cerro Catedral</a>
+                            <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">1 Dorm</a>
+                            <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">9 Plazas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="square">
+                        <img src="./img/iloveimg-resized (2)/foto1-copy-1.jpg" alt="">
+                        <div class="square_descripcion">
+                            <a href="">USD 110.000</a>
+                            <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">San Telmo, Capital Federal</a>
+                            <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">80 m Cubiertos</a>
+                            <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">3 Dorm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="square">
+                        <img src="./img/iloveimg-resized (2)/foto6.jpg" alt="">
+                        <div class="square_descripcion">
+                            <a href="">USD 49.000</a>
+                            <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Muniz, San Miguel</a>
+                            <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">35 m Cubiertos</a>
+                            <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">1 Dorm</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="square">
-                <img src="./img/iloveimg-resized (2)/foto1.jpg" alt=""> 
-                <div class="square_descripcion">
-                    <a href="">USD 65.000</a>
-                    <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Parque Patricios, Capital Federal</a>
-                    <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">75 m Cubiertos</a>
-                    <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">2 Dorm</a>
-                </div>  
-            </div>
-            <div class="square">
-                <img src="./img/iloveimg-resized (2)/foto1-copy-2.jpg" alt="">
-                <div class="square_descripcion">
-                    <a href="">USD 2.500.000</a>
-                    <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Villa Cerro Catedral</a>
-                    <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">1 Dorm</a>
-                    <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">9 Plazas</a>
-                </div>
-            </div>
-            <div class="square">
-                <img src="./img/iloveimg-resized (2)/foto1-copy-1.jpg" alt="">
-                <div class="square_descripcion">
-                    <a href="">USD 110.000</a>
-                    <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">San Telmo, Capital Federal</a>
-                    <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">80 m Cubiertos</a>
-                    <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">3 Dorm</a>
-                </div>
-            </div>
-            <div class="square">
-                <img src="./img/iloveimg-resized (2)/foto6.jpg" alt="">
-                <div class="square_descripcion">
-                    <a href="">USD 49.000</a>
-                    <a href=""><img src="./img/redes/favicon_ubicacion/favicon-16x16.png" alt="">Muniz, San Miguel</a>
-                    <a href=""><img src="./img/redes/metros_cuadrados/favicon-16x16.png" alt="">35 m Cubiertos</a>
-                    <a href=""><img src="./img/redes/cama/favicon-16x16.png" alt="">1 Dorm</a>
-                </div>
-            </div>
-            </div>
-        </div>
 
-            </div>
+            
 
         </div>
         <a href="./pages/propiedades.html" class="verMas-button">
@@ -174,7 +193,7 @@
             <a href=""><img src="./img/redes/favicon_telefono/favicon-16x16.png" alt="">15-3142-3817</a>
         </div>
         
-        <iframe class="container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5247415720546!2d-58.6986338250064!3d-34.565586755484134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbdb5c9a9ee59%3A0x71b04c43d197448e!2sCEL%2C%20Arroyo%20575%2C%20B1661%20Bella%20Vista%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687014106153!5m2!1ses-419!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5247415720546!2d-58.6986338250064!3d-34.565586755484134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbdb5c9a9ee59%3A0x71b04c43d197448e!2sCEL%2C%20Arroyo%20575%2C%20B1661%20Bella%20Vista%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687014106153!5m2!1ses-419!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
     </main>
     <footer class="container-fluid">
