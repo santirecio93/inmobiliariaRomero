@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    width: 700px;
+    width: 50%;
     height: 140px; }
     .hsuperior .tarjeta .logo {
       width: 140px;
@@ -37,7 +37,8 @@
         color: white; }
   .hsuperior nav {
     background-color: black;
-    align-items: center; }
+    align-items: center;
+    width: 50%; }
     .hsuperior nav ul {
       align-items: center;
       background-color: black;
@@ -53,6 +54,7 @@
           color: white; }
 
 .hinferior {
+  width: 100%;
   background-color: black;
   display: flex;
   align-items: center;
@@ -84,8 +86,7 @@ main {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
-      gap: 30px;
-      flex-wrap: wrap; }
+      gap: 30px; }
       main .propiedades .grid .square {
         display: flex;
         flex-direction: column;
@@ -116,7 +117,7 @@ main {
   main iframe {
     padding: 2rem;
     height: 250px;
-    width: 1000px; }
+    width: 80%; }
 
 footer {
   justify-content: center;
