@@ -1,12 +1,4 @@
-.whatsapp-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999; }
 
-.whatsapp-button img {
-  width: 60px;
-  height: 60px; }
 
 .rectangulo {
     padding: 10px;
@@ -24,9 +16,18 @@
   width: 200px;
   height: 200px;
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; }
 
+.whatsapp-button img {
+  width: 60px;
+  height: 60px; }
 
 .hsuperior {
+  width: 100%;
   display: flex;
   background-color: black;
   align-items: center;
@@ -38,7 +39,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    width: 700px;
+    width: 50%;
     height: 140px; }
     .hsuperior .tarjeta .logo {
       width: 140px;
@@ -52,55 +53,40 @@
         color: white; }
       .hsuperior .tarjeta .nombre h6 {
         color: white; }
-  .hsuperior nav {
-    background-color: black;
-    align-items: center; }
-    .hsuperior nav ul {
-      align-items: center;
-      background-color: black;
-      display: flex; }
-      .hsuperior nav ul li {
-        list-style-type: none;
-        padding: 1rem; }
-        .hsuperior nav ul li :hover {
-          background-color: white;
-          color: black; }
-        .hsuperior nav ul li a {
-          text-decoration: none;
-          color: white; }
+  .hsuperior .navbar {
+    background-color: black; }
+    .hsuperior .navbar .navbar-nav {
+      background-color: black; }
+      .hsuperior .navbar .navbar-nav .nav-link {
+        color: white; }
 
 .hinferior {
+  width: 100%;
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
   .hinferior nav ul {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
     .hinferior nav ul li {
       padding: .5rem;
       list-style-type: none; }
       .hinferior nav ul li a {
         text-decoration: none;
         color: white; }
-
 main {
-  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   background-color: white; }
-  .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: blue;
-    height: 1000px;
-    width: 100%;
-    padding: none;
-  }
-    
-   .contactanos {
+  main .verMas-button {
+    padding: 0.5rem;
+    color: black;
+    text-decoration: none; }
+main .contactanos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,12 +99,9 @@ main {
   main iframe {
     padding: 2rem;
     height: 250px;
-    width: 1000px; }
-    main .verMas-button {
-      padding: 0.5rem;
-      color: black;
-      text-decoration: none; }
-footer {
+    width: 80%; }
+
+ footer {
   justify-content: center;
   background-color: black; }
   footer .link-rapidos {
@@ -130,4 +113,4 @@ footer {
       color: white; }
     footer .link-rapidos .rapidos {
       text-decoration: none;
-      color: white; }
+      color: white; }       
