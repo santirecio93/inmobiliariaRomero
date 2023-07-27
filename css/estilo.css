@@ -36,7 +36,9 @@
       display: flex;
       flex-direction: column;
       padding: 1rem;
-      align-items: center; }
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
       .hsuperior .tarjeta .nombre h1 {
         color: white; }
       .hsuperior .tarjeta .nombre h6 {
@@ -81,7 +83,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: white; }
+  background-color: whitesmoke; }
   main .slide {
     width: 99%; }
   main .propiedades {

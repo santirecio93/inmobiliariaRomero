@@ -4,11 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: calc(100% - 100px); /* Restamos 20px para compensar el espacio entre los rectángulos */
+    width: calc(100% - 30px); /* Restamos 20px para compensar el espacio entre los rectángulos */
     height: 260px;
     background-color: white; /* Puedes cambiar el color si lo deseas */
     box-sizing: border-box;
     border: 1px solid #000; /* Borde para separar los rectángulos, puedes eliminarlo si prefieres */
+    border-radius: 1%;
     margin-bottom: 10px; /* Espacio entre los rectángulos */
 }
 .rectangulo:hover{
@@ -55,7 +56,8 @@
       display: flex;
       flex-direction: column;
       padding: 1rem;
-      align-items: center; }
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif; }
       .hsuperior .tarjeta .nombre h1 {
         color: white; }
       .hsuperior .tarjeta .nombre h6 {
