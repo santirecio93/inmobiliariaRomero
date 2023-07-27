@@ -24,7 +24,11 @@
 .whatsapp-button img {
   width: 60px;
   height: 60px; }
-
+@media(max-width: 480px){
+  .whatsapp-button{
+    display: none;
+  }
+}
 .hsuperior {
   width: 100%;
   display: flex;
@@ -105,6 +109,7 @@ main {
     padding: 0.5rem;
     color: black;
     text-decoration: none; }
+  
 main .contactanos {
     display: flex;
     flex-direction: column;

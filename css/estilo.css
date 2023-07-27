@@ -110,6 +110,9 @@ main {
           main .propiedades .container .square .square_descripcion a {
             text-decoration: none;
             color: black; }
+  .item:hover{
+    background-color: whitesmoke;
+  }
   main .verMas-button {
     padding: 0.5rem;
     color: black;
