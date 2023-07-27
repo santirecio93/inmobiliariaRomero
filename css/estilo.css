@@ -8,6 +8,12 @@
   width: 60px;
   height: 60px; }
 
+  @media (max-width: 480px){
+    .whatsapp-button{
+      display: none;
+    }
+  }
+
 .hsuperior {
   width: 100%;
   display: flex;
@@ -41,7 +47,6 @@
       background-color: black; }
       .hsuperior .navbar .navbar-nav .nav-link {
         color: white; }
-
 @media (max-width: 480px){
   .hsuperior .tarjeta .logo{
     width: 120px;
@@ -51,6 +56,8 @@
     display: none;
   }
 }
+
+
 .hinferior {
   width: 100%;
   background-color: black;
@@ -60,20 +67,14 @@
   flex-wrap: wrap; }
   .hinferior nav ul {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-items: center; }
     .hinferior nav ul li {
       padding: .5rem;
       list-style-type: none; }
       .hinferior nav ul li a {
         text-decoration: none;
         color: white; }
-
-@media (max-width: 480px){
-  .hinferior nav ul .facebook{
-    display: none;
-  }
-}
-
 
 main {
   display: flex;
