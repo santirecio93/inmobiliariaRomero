@@ -11,6 +11,10 @@
     border: 1px solid #000; /* Borde para separar los rectángulos, puedes eliminarlo si prefieres */
     margin-bottom: 10px; /* Espacio entre los rectángulos */
 }
+.rectangulo:hover{
+    transform: 0.3s;
+    transform: scale(1.02);
+  }
 .foto-descripcion{
   width: 200px;
   height: 200px;
