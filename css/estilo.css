@@ -111,7 +111,8 @@ main {
             text-decoration: none;
             color: black; }
   .item:hover{
-    background-color: whitesmoke;
+    transform: 0.3s;
+    transform: scale(1.1);
   }
   main .verMas-button {
     padding: 0.5rem;
