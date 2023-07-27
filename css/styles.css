@@ -67,6 +67,16 @@
   .hsuperior .tarjeta .nombre{
     display: none;
   }
+  .descripcion{
+    display: none;
+  }
+  .foto-descripcion{
+    display: none;
+  }
+  .slade{
+    width: 99%;
+  }
+  
 }
 
 .hinferior {
