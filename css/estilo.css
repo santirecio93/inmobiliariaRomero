@@ -1,3 +1,5 @@
+
+
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
@@ -13,7 +15,7 @@
       display: none;
     }
   }
-
+  
 .hsuperior {
   width: 100%;
   display: flex;
@@ -136,6 +138,12 @@ main {
     padding: 2rem;
     height: 250px;
     width: 80%; }
+
+  @media(max-width: 480px){
+    .slide{
+      display: none;
+    }
+  }
 
 footer {
   justify-content: center;
