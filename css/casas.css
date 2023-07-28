@@ -1,18 +1,9 @@
+/* styles.css */
 
-.slider{
-    height: 700px;
-    align-items: center;
+body {
+  margin: 0;
+  padding: 0;
 }
-.whatsapp-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999; }
-
-.whatsapp-button img {
-  width: 60px;
-  height: 60px; }
-
 .hsuperior {
   width: 100%;
   display: flex;
@@ -35,7 +26,9 @@
       display: flex;
       flex-direction: column;
       padding: 1rem;
-      align-items: center; }
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
       .hsuperior .tarjeta .nombre h1 {
         color: white; }
       .hsuperior .tarjeta .nombre h6 {
@@ -46,43 +39,81 @@
       background-color: black; }
       .hsuperior .navbar .navbar-nav .nav-link {
         color: white; }
+@media (max-width: 480px){
+  .hsuperior .tarjeta .logo{
+    width: 120px;
+    height: 120px;
+  }
+  .hsuperior .tarjeta .nombre{
+    display: none;
+  }
+}
 
-.hinferior {
+
+
+.slider-container {
+  position: relative;
+  max-width: 600px; /* Adjust the desired maximum width */
+  margin: 0 auto; /* Center the slider horizontally */
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider img {
   width: 100%;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap; }
-  .hinferior nav ul {
-    display: flex;
-    flex-wrap: wrap; }
-    .hinferior nav ul li {
-      padding: .5rem;
-      list-style-type: none; }
-      .hinferior nav ul li a {
-        text-decoration: none;
-        color: white; }
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: white; }
- 
-main .contactanos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; }
-    main .contactanos h4 {
-      background-color: red; }
-    main .contactanos a {
-      text-decoration: none;
-      color: black; }
-  
+  height: auto;
+  object-fit: cover;
+  display: none;
+}
 
- footer {
+.slider img:first-child {
+  display: block;
+}
+
+.slider-indicators {
+  position: absolute;
+  display: flex;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.indicator {
+  cursor: pointer;
+  font-size: 10px;
+  margin: 0 5px;
+}
+
+.slider-nav-left,
+.slider-nav-right {
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slider-nav-left {
+  left: 10px;
+}
+
+.slider-nav-right {
+  right: 10px;
+}
+
+/* Optional styling for Font Awesome icons */
+.slider-nav-left:hover,
+.slider-nav-right:hover,
+.indicator:hover {
+  color: #008080; /* Change color on hover */
+}
+
+footer {
   justify-content: center;
   background-color: black; }
   footer .link-rapidos {
@@ -94,4 +125,4 @@ main .contactanos {
       color: white; }
     footer .link-rapidos .rapidos {
       text-decoration: none;
-      color: white; }       
+      color: white; } 
